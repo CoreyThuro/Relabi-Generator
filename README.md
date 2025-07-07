@@ -11,26 +11,26 @@ Algorithm used here:
 4. loop do
 
 
-    Initialize state for each LFO as LFO_n {phase: 0, prev: 0}
+        Initialize state for each LFO as LFO_n {phase: 0, prev: 0}
 
    
-    Calculate current phase value for each lfo
+        Calculate current phase value for each lfo
 
    
-    Set freq_n = base_freq_n + phase_value*mod_depth_n+1
+        Set freq_n = base_freq_n + phase_value*mod_depth_n+1
 
    
-    Calculate new phase = lfo_n[:phase] * freq_n*resolution_sleep
+        Calculate new phase = lfo_n[:phase] * freq_n*resolution_sleep
 
    
-    If:
+        If:
 
-      val_n[:prev] < lfo_n_threshold && val_n > lfo_n_threshold
+          val_n[:prev] < lfo_n_threshold && val_n > lfo_n_threshold
 
    
-    Then:
+        Then:
    
-      trigger lfo_n
+          trigger lfo_n
 
    
    end
