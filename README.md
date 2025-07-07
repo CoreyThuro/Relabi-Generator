@@ -9,6 +9,8 @@ Algorithm used here:
 2. Set modulation depth for each oscillator (magnitude with which each oscillator affects the other in step 4.c freq update)
 3. Set trigger thresholds ((amplitude?) value the wave must cross to trigger a sample or synth.
 4. loop do
+
+
     Initialize state for each LFO as LFO_n {phase: 0, prev: 0}
     Calculate current phase value for each lfo
     Set freq_n = base_freq_n + phase_value*mod_depth_n+1
