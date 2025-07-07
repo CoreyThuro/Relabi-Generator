@@ -7,7 +7,7 @@ Algorithm used here:
 
 1. Set base frequencies for 3 oscillators
 2. Set modulation depth for each oscillator (magnitude with which each oscillator affects the other in step 4 freq update)
-3. Set trigger thresholds ((amplitude?) value the wave must cross to trigger a sample or synth.
+3. Set trigger thresholds (value the wave must cross to trigger a sample or synth.
 4. loop do
 
 
