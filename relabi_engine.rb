@@ -31,7 +31,7 @@ set :main_threshold, 1.5 # The main wave is a sum of the 3 LFOs
 set :resolution_sleep, 0.08
 
 #–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-## STATE INITIALIZATION (Do not change)
+## STATE INITIALIZATION
 #–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
 # Initialize state for each LFO (phase and previous value for threshold detection)
